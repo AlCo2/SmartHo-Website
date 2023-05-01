@@ -171,9 +171,9 @@ nav{
     padding-top: 10px;
 }
 .roomsList{
-margin-top: 10px;
- display: grid;
- place-items: center;   
+    margin-top: 10px;
+    display: grid;
+    place-items: center;   
 }
 .roomsList .arrow{
     color: #8a71f5;
@@ -189,7 +189,21 @@ margin-top: 10px;
 }
 .roomsList ul li{
     opacity: 20%;
+    cursor: pointer;
+}
+.roomsList ul li:hover{
+    opacity: 100%;
+    transition-duration: 300ms;
 }
 .roomsList ul li:nth-child(2){
     opacity: 100%;
+}
+
+.light{
+    width: 100%;
+    height: 150px;
+    color: white;
+    background-color: #242424;
+    border-radius: 10px;
+    
 }
