@@ -75,10 +75,9 @@ nav{
 }
 .rightTextBackgroundP {
     width: 85%;
-    margin-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
+    margin-left: 5px;
     border-radius: 8px;
     background-color: #242424;
     color: white;
@@ -91,25 +90,26 @@ nav{
     opacity: 80%;
 }
 .rightTextBackgroundP .rightTextFirst p:nth-child(1){
-    padding-right: 3px; 
+    padding-left: 10px;
+    padding-right: 3px;
 }
 .rightTextBackgroundP .rightTextFirst p:nth-child(2){
     opacity: 40%;
 }
 .rightTextBackgroundP div:nth-child(2) p{
-    padding-right: 10px;
     font-size: 20px;
     color: #8a71f5;
     opacity: 100%;
+    padding-right: 10px;
 }
 .rightText{
     display: flex;
-    width: 100%;
+    width: 86%;
     height: 100%;
-    gap: 10px;
+    gap: 3px;
 }
 .rightText .rightTextEnergy{
-    width: 40%;
+    width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
