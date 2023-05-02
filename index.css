@@ -413,3 +413,43 @@ support
     border-radius: 50%;
   }
 
+
+
+@media screen and (max-width:900px){
+    .navList{
+        margin-right: 80px;
+    }
+    .navList li{
+        width: 70px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .welcome_bar{
+        width: 400px;
+    }
+    .insideDiv{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:600px){
+    .navList{
+        display: none;
+    }
+    #main{
+        flex-direction: column;
+    }
+    .welcome_bar{
+        max-width: fit-content;
+    }
+    .welcome_bar h1{
+        padding: 5px;
+    }
+    .mainList{
+        margin-bottom: 10px;
+        width: fit-content;
+    }
+    .picPlace{
+        margin-bottom: 10px;
+        height: 200px;
+    }
+}
